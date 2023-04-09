@@ -158,3 +158,8 @@ TW_NO_BIND_SYSTEM := true
 TW_NO_SCREEN_BLANK := true
 TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
 TW_BACKUP_EXCLUSIONS := /data/fonts
+
+#PBRP Specific Build Flags
+PB_TORCH_PATH := "/sys/devices/virtual/camera/flash/rear_flash"
+PB_TORCH_MAX_BRIGHTNESS := 1
+PB_DISABLE_DEFAULT_DM_VERITY := true
