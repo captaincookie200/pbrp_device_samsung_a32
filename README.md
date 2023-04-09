@@ -5,7 +5,7 @@
 ```sh
 export ALLOW_MISSING_DEPENDENCIES=true
 . build/envsetup.sh
-lunch twrp_a32-eng
+lunch omni_a32-eng
 make recoveryimage
 ```
 
