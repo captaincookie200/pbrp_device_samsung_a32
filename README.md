@@ -15,4 +15,4 @@ Blobs version:
 > Ramdisk, DTB, DTBO base: A325FXXU2BVD6
 
 Kernel source:
-> https://github.com/long266/android_kernel_samsung_a32/tree/s
+> https://github.com/DevZillion/android_kernel_samsung_a32
