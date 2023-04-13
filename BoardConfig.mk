@@ -91,6 +91,7 @@ BOARD_MKBOOTIMG_ARGS := \
 
 BOARD_CUSTOM_BOOTIMG := true
 BOARD_CUSTOM_BOOTIMG_MK := $(DEVICE_PATH)/bootimg.mk
+BOARD_CANT_BUILD_RECOVERY_FROM_BOOT_PATCH := true
 
 # Recovery
 BOARD_HAS_LARGE_FILESYSTEM := true
@@ -157,8 +158,6 @@ TW_NO_BIND_SYSTEM := true
 TW_NO_SCREEN_BLANK := true
 TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
 TW_BACKUP_EXCLUSIONS := /data/fonts
-LZMA_RAMDISK_TARGETS := recovery
-LZMA_COMPRESSION := -9
 
 #PBRP Specific Build Flags
 PB_TORCH_PATH := "/sys/devices/virtual/camera/flash/rear_flash"
